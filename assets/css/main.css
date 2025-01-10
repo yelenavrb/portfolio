@@ -2146,6 +2146,11 @@ input, select, textarea {
 			}
 
 /* List */
+	ul.no-bullets {
+    		list-style: none;
+  		padding: 0;
+    		margin: 0;
+	}
 
 	ol {
 		list-style: decimal;
