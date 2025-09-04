@@ -3223,3 +3223,20 @@ input, select, textarea {
 			}
 
 	}
+
+.skills-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem; /* space between columns */
+}
+
+.skills-columns > div {
+  flex: 1 1 30%; /* each column ~30% of width */
+  min-width: 250px; /* ensures it stays readable on small screens */
+}
+
+.skills-columns ul {
+  list-style-type: disc;
+  padding-left: 1.2rem;
+}
+
