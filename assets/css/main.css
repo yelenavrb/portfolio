@@ -3224,19 +3224,23 @@ input, select, textarea {
 
 	}
 
-.skills-columns {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem; /* space between columns */
-}
-
-.skills-columns > div {
-  flex: 1 1 30%; /* each column ~30% of width */
-  min-width: 250px; /* ensures it stays readable on small screens */
-}
-
-.skills-columns ul {
+/* Makes lists split into 3 columns */
+.three-columns {
+  column-count: 3;       /* 3 columns */
+  column-gap: 2rem;      /* spacing between columns */
   list-style-type: disc;
   padding-left: 1.2rem;
+}
+
+@media screen and (max-width: 900px) {
+  .three-columns {
+    column-count: 2;      /* 2 columns on smaller screens */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .three-columns {
+    column-count: 1;      /* 1 column on mobile */
+  }
 }
 
