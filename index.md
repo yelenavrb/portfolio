@@ -3,8 +3,12 @@ layout: home
 
 hero:
   name: Yelena Varabyeva
-  text: 'Senior Knowledge & Localization Manager | UX Writing & Content Design | Interactive Product Videos | AI Conversation Design'
-  tagline: I help users, teams, and products speak the same language through clear content, structured knowledge, localization, product education, and conversational design.
+  text: Senior Knowledge & Localization Manager
+  tagline: UX Writing & Content Design · Interactive Product Videos · AI Conversation Design
+  motto: Watching out for details so everyone else can focus on the big picture
+  image:
+    src: /images/avatar.jpg
+    alt: Portrait of Yelena Varabyeva
   actions:
     - theme: brand
       text: View work
@@ -18,27 +22,31 @@ hero:
 
 features:
   - title: Help Center
-    details: 1,000+ localized article versions across five languages, supported by content standards, technical review, analytics, and structured publishing workflows.
+    details: 1,000+ localized Help Center article versions across five languages, guided by content standards and analytics
     link: /work/help-center
     linkText: View examples
+
   - title: UX microcopy
-    details: 2,981+ English UI strings reviewed from January through September 2026, including interface copy, errors, system emails, and onboarding flows.
+    details: 200+ UI strings reviewed per quarter, 750 legacy microcopy issues fixed, and writing standards established and enforced
     link: /work/ux-microcopy
     linkText: View scope
+
   - title: Product videos
-    details: 50+ interactive Arcade videos, including product demos, step-by-step tutorials, GIFs, and guides for key workflows.
+    details: 50+ interactive Arcade videos created, including product demos, tutorials, GIFs, and workflow guides
     link: /work/product-videos
     linkText: Watch examples
+
   - title: Release notes
-    details: 39 English release notes created from January through September 2026 and coordinated for multilingual publication.
+    details: 13 English release notes created per quarter by reviewing sprint changes and making key updates clear without internal context
     link: /work/release-notes
     linkText: View scope
+
   - title: Localization
-    details: Localization across five languages, including 5,500 visible app strings and 3,125 visible website strings managed in Crowdin.
+    details: 8,625 app and website strings managed in Crowdin as part of localization across five languages
     link: /work/localization
     linkText: View examples
+
   - title: Chatbot
-    details: 500+ English chatbot answers, localized content, search optimization, and iteration based on usage data.
+    details: 500+ English chatbot answers, with localization, search optimization, and usage-based improvements
     link: /work/chatbot
     linkText: View examples
----
