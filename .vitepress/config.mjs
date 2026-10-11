@@ -8,8 +8,8 @@ export default defineConfig({
     'Senior Knowledge & Localization Manager | UX Writing & Content Design | Interactive Product Videos | AI Conversation Design',
 
   themeConfig: {
+    siteTitle: 'YV',
     nav: [
-      { text: 'Home', link: '/' },
       {
         text: 'Work',
         items: [
